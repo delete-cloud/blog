@@ -1,0 +1,18 @@
+sections: [hero, cta]
+
+hero:
+  align: center
+  eyebrow: 个人博客
+  title_lines:
+    - words: [{ text: 写作、记录、分享。 }]
+  lead: 公开发表的文章与随笔。
+  actions:
+    - { label: 阅读文章, url: blog/, icon: fa-solid fa-blog, style: primary }
+    - { label: RSS 订阅, url: blog/index.xml, icon: fa-solid fa-rss, style: ghost }
+
+cta:
+  title: 保持联系。
+  text: 通过 RSS 订阅新文章，或在文章下方留言评论。
+  label: 进入博客
+  url: blog/
+  style: primary

@@ -1,0 +1,18 @@
+sections: [hero, cta]
+
+hero:
+  align: center
+  eyebrow: Personal blog
+  title_lines:
+    - words: [{ text: "Write. Record. Share." }]
+  lead: Public articles and notes.
+  actions:
+    - { label: Read the blog, url: blog/, icon: fa-solid fa-blog, style: primary }
+    - { label: RSS feed, url: blog/index.xml, icon: fa-solid fa-rss, style: ghost }
+
+cta:
+  title: Stay in touch.
+  text: Subscribe via RSS for new posts, or leave a comment below any article.
+  label: Go to the blog
+  url: blog/
+  style: primary
