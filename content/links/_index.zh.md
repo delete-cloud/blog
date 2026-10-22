@@ -13,10 +13,8 @@ menus:
 
 朋友们的博客，常去的地方。
 
-- [Reorx's Forge](https://reorx.com) — 折腾各种东西的技术博客
-- [Sukka's Notebook](https://skk.moe) — 前端、网络、碎碎念
-- [iBug Thought](https://ibug.io) — 折腾笔记
-
+- [LHabc](https://lhabc.me/)
+- [CJanus](https://www.cjanus.top/) — Janus' Blogs
 {.cards}
 
 ## 互换友链

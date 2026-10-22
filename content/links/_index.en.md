@@ -13,10 +13,8 @@ menus:
 
 Blogs by friends and people I read.
 
-- [Reorx's Forge](https://reorx.com) — hacking on all kinds of things
-- [Sukka's Notebook](https://skk.moe) — frontend, networking, thoughts
-- [iBug Thought](https://ibug.io) — tinkering notes
-
+- [LHabc](https://lhabc.me/)
+- [CJanus](https://www.cjanus.top/) — Janus' Blogs
 {.cards}
 
 ## Exchange links
