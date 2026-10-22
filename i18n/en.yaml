@@ -1,0 +1,1 @@
+post_content_license: "This article is licensed under {{ .license }}"
