@@ -13,7 +13,7 @@ menus:
 
 Blogs by friends and people I read.
 
-- [LHabc](https://lhabc.me/)
+- [LHabc](https://lhabc.me/) — LHabc's site
 - [CJanus](https://www.cjanus.top/) — Janus' Blogs
 {.cards}
 

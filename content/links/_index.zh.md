@@ -13,7 +13,7 @@ menus:
 
 朋友们的博客，常去的地方。
 
-- [LHabc](https://lhabc.me/)
+- [LHabc](https://lhabc.me/) — LHabc 的小站
 - [CJanus](https://www.cjanus.top/) — Janus' Blogs
 {.cards}
 
