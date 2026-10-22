@@ -61,3 +61,9 @@
 .td-home .td-shell-footline {
   padding-block: 8px;
 }
+
+// A CC license already covers content rights; the stock "All Rights
+// Reserved" string would contradict it, so hide it.
+.td-footer__all_rights_reserved {
+  display: none;
+}

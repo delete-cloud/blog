@@ -55,9 +55,9 @@ outputs:
 params:
   offline_search: true
   copyright:
-    authors: Project contributors
+    authors: kina
     from_year: 2026
-  footer_center_info: ''
+  footer_center_info: 'Content licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
   ui:
     preset: paper
     preset_menu: [paper, slate, ink, terminal]
