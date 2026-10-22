@@ -78,9 +78,7 @@ params:
   github_repo: https://github.com/delete-cloud/blog
   github_branch: main
 
-  # Optional brand assets. The starter already supplies a neutral logo.
-  # logo: icons/logo.svg
-  # wordmark: icons/wordmark.svg
+  logo: images/avatar.png
 
   comments:
     enable: true

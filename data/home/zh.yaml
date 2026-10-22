@@ -1,7 +1,12 @@
 sections: [hero]
 
 hero:
-  align: center
+  align: start
+  image:
+    src: /images/avatar.png
+    alt: Kina's avatar
+  media:
+    max_width: 200px
   eyebrow: Deep Diving
   title_lines:
     - words: [{ text: "Kina's Blog" }]

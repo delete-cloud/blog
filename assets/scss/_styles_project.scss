@@ -1,0 +1,10 @@
+// Round avatar in hero media and navbar logo.
+.td-landing-hero__media {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.td-nav-logo,
+.td-shell-brand-logo {
+  border-radius: 50%;
+}
