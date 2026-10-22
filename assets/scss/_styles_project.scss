@@ -8,3 +8,56 @@
 .td-shell-brand-logo {
   border-radius: 50%;
 }
+
+// Compact home hero: keep the hero and the footline inside one viewport.
+
+// The sticky navbar takes 50px in normal flow; subtract it so main +
+// footline fill exactly the rest of the viewport instead of a full 100vh.
+.td-home .td-outer {
+  min-height: calc(100vh - 50px);
+  min-height: calc(100dvh - 50px);
+}
+
+// Stretch the landing across the leftover space so the hero can center its
+// content between the navbar and the footline.
+.td-home .td-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.td-home .td-landing-landing {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+.td-home .td-default main .td-landing-hero {
+  align-items: center;
+  flex: 1 0 auto;
+  padding: clamp(32px, 6vh, 64px) 0;
+}
+
+// Tighter vertical rhythm inside the compact hero.
+.td-home .td-landing-hero__eyebrow {
+  margin-bottom: 16px;
+}
+
+.td-home .td-landing-hero__title {
+  margin-bottom: 18px;
+}
+
+.td-home .td-landing-hero__lead {
+  margin-bottom: 0;
+}
+
+.td-home .td-landing-hero__social {
+  font-size: 1.4rem;
+}
+
+.td-home .td-landing-hero__actions {
+  margin: 26px 0 0;
+}
+
+.td-home .td-shell-footline {
+  padding-block: 8px;
+}
