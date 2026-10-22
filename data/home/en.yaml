@@ -1,18 +1,12 @@
-sections: [hero, cta]
+sections: [hero]
 
 hero:
   align: center
-  eyebrow: Personal blog
+  eyebrow: Kina's Blog
   title_lines:
-    - words: [{ text: "Write. Record. Share." }]
-  lead: Public articles and notes.
+    - words: [{ text: Deep Diving }]
+  lead: |
+    <span class="td-landing-hero__social"><a style="margin:0 0.45em" href="https://github.com/delete-cloud" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a style="margin:0 0.45em" href="https://t.me/kina0630" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a><a style="margin:0 0.45em" href="mailto:i@kinaz.me" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></span>
   actions:
     - { label: Read the blog, url: blog/, icon: fa-solid fa-blog, style: primary }
     - { label: RSS feed, url: blog/index.xml, icon: fa-solid fa-rss, style: ghost }
-
-cta:
-  title: Stay in touch.
-  text: Subscribe via RSS for new posts, or leave a comment below any article.
-  label: Go to the blog
-  url: blog/
-  style: primary

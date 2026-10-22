@@ -1,18 +1,12 @@
-sections: [hero, cta]
+sections: [hero]
 
 hero:
   align: center
-  eyebrow: 个人博客
+  eyebrow: Kina's Blog
   title_lines:
-    - words: [{ text: 写作、记录、分享。 }]
-  lead: 公开发表的文章与随笔。
+    - words: [{ text: Deep Diving }]
+  lead: |
+    <span class="td-landing-hero__social"><a style="margin:0 0.45em" href="https://github.com/delete-cloud" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a style="margin:0 0.45em" href="https://t.me/kina0630" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a><a style="margin:0 0.45em" href="mailto:i@kinaz.me" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></span>
   actions:
     - { label: 阅读文章, url: blog/, icon: fa-solid fa-blog, style: primary }
     - { label: RSS 订阅, url: blog/index.xml, icon: fa-solid fa-rss, style: ghost }
-
-cta:
-  title: 保持联系。
-  text: 通过 RSS 订阅新文章，或在文章下方留言评论。
-  label: 进入博客
-  url: blog/
-  style: primary
