@@ -11,9 +11,9 @@ menus:
       icon: fa-solid fa-user
 ---
 
-我是 Kina，写代码，日常折腾基础设施、AI agent 和一些没什么用但好玩的东西。
+你好，我叫 Kina，喜欢日常折腾基础设施以及开源(?)、AI agent 和一些没什么用但好玩的东西。
 
-这里记录公开的技术笔记与随笔，中英混写，想到哪写到哪。
+这里用来记录一些我公开的技术笔记与随笔，只为留痕，不为深刻。
 
 除特殊说明外，本站文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。
 

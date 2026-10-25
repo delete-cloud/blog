@@ -11,9 +11,9 @@ menus:
       icon: fa-solid fa-user
 ---
 
-I'm Kina. I write code and tinker with infrastructure, AI agents, and other things that are useless but fun.
+Hi, I'm Kina. I tinker with infrastructure and open source(?), AI agents, and other things that are useless but fun.
 
-This blog holds public tech notes and essays, in both Chinese and English.
+This is where I keep my public tech notes and essays — for the record, not for depth.
 
 Unless noted otherwise, posts here are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
