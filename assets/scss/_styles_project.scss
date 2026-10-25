@@ -9,13 +9,30 @@
   border-radius: 50%;
 }
 
-// Compact home hero: keep the hero and the footline inside one viewport.
-
-// The sticky navbar takes 50px in normal flow; subtract it so main +
-// footline fill exactly the rest of the viewport instead of a full 100vh.
-.td-home .td-outer {
+// Keep the footline inside the first viewport on plain (non-shell) pages:
+// the sticky navbar takes 50px in normal flow, so the outer wrapper gets
+// the rest of the viewport instead of a full 100vh that pushed the
+// footline one navbar-height below the fold.
+.td-default.td-outer {
   min-height: calc(100vh - 50px);
   min-height: calc(100dvh - 50px);
+}
+
+// Simple content pages rendered by layouts/section.html (About, Links):
+// a readable column centred between the navbar and the footline.
+.td-plain-article {
+  width: 100%;
+  max-width: 800px;
+  margin-inline: auto;
+  padding: clamp(2rem, 4vw, 2.75rem) clamp(1.25rem, 4vw, 2.5rem) 3rem;
+}
+
+// Contact / social icon rows on plain pages.
+.td-social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  font-size: 1.4rem;
 }
 
 // Stretch the landing across the leftover space so the hero can center its

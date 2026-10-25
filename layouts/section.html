@@ -1,0 +1,9 @@
+{{ define "main" -}}
+<article class="td-plain-article">
+  <div class="td-content">
+    {{ partial "page-title.html" . }}
+    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+    {{ partial "content/render.html" . }}
+  </div>
+</article>
+{{ end -}}
