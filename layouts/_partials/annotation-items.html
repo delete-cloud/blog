@@ -2,25 +2,6 @@
 {{- $items := slice -}}
 {{- $path := $page.Path -}}
 
-{{- /* Last modified ---------------------------------------------------- */ -}}
-{{- $commitMode := partial "validate.html" (dict
-    "value" (partial "ui-param.html" (dict "page" $page "key" "lastmod_commit")) "kind" "enum"
-    "allowed" (slice "subject" "hash" "none") "fallback" "subject"
-    "key" "params.ui.lastmod_commit" "where" (cond (isset $page.Params "lastmod_commit") $page.Path "")) -}}
-{{- if not $page.Lastmod.IsZero -}}
-  {{- $text := printf "%s %s" (T "post_last_mod") ($page.Lastmod.Format $page.Site.Params.time_format_default) -}}
-  {{- if ne $commitMode "none" -}}
-    {{- with $page.GitInfo -}}
-      {{- with $page.Site.Params.github_repo -}}
-        {{- $label := $page.GitInfo.Subject -}}
-        {{- if eq $commitMode "hash" }}{{ $label = printf "commit %s" $page.GitInfo.AbbreviatedHash }}{{ else }}{{ $label = printf "%s (%s)" $page.GitInfo.Subject $page.GitInfo.AbbreviatedHash }}{{ end -}}
-        {{- $text = printf `%s &middot; <a data-proofer-ignore href="%s/commit/%s">%s</a>` $text (. | htmlEscape) ($page.GitInfo.Hash | htmlEscape) ($label | htmlEscape) -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $items = $items | append (dict "key" "lastmod" "icon" "fa-solid fa-clock-rotate-left" "html" $text) -}}
-{{- end -}}
-
 {{- /* Upstream attribution --------------------------------------------- */ -}}
 {{- if isset $page.Params "upstream_attribution" -}}
   {{- warnidf "annotation-legacy-upstream-attribution" "front matter upstream_attribution was renamed: use upstream_link with upstream_name, upstream_copyright, upstream_license, and upstream_notice at %s; omitting the attribution" $path -}}
