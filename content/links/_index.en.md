@@ -17,9 +17,12 @@ menus:
 
 ## Exchange links
 
-Want to exchange links? Reach me via the contact icons on the home page with this info:
+Feel free to swap links — you can reach me through any of these:
 
 - **Name**: Kina's Blog
 - **URL**: https://blog.kinaz.me
-- **Description**: Tech notes and essays
 - **RSS**: https://blog.kinaz.me/blog/index.xml
+
+<div class="td-social-links">
+<a href="https://github.com/delete-cloud" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://t.me/kina0630" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a><a href="mailto:i@kinaz.me" aria-label="Email"><i class="fa-solid fa-envelope"></i></a><a href="https://x.com/kina0630111171" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+</div>
