@@ -152,16 +152,18 @@
 {{- end -}}
 
 {{- /* Original-content license ------------------------------------- */ -}}
-{{- with index $page.Site.Params "content_license" -}}
-  {{- $entry := index (hugo.Data.licenses | default dict) . | default dict -}}
-  {{- $lname := (index $entry "name") | default (printf "%v" .) -}}
-  {{- $lurl := index $entry "url" -}}
-  {{- $ltarget := cond $lurl (printf `<a href="%s" target="_blank" rel="noopener">%s</a>` ($lurl | htmlEscape) ($lname | htmlEscape)) ($lname | htmlEscape) -}}
-  {{- $items = $items | append (dict
-    "key" "license"
-    "icon" "fa-solid fa-scale-balanced"
-    "html" (T "post_content_license" (dict "license" $ltarget)))
-  -}}
+{{- if $page.IsPage -}}
+  {{- with index $page.Site.Params "content_license" -}}
+    {{- $entry := index (hugo.Data.licenses | default dict) . | default dict -}}
+    {{- $lname := (index $entry "name") | default (printf "%v" .) -}}
+    {{- $lurl := index $entry "url" -}}
+    {{- $ltarget := cond $lurl (printf `<a href="%s" target="_blank" rel="noopener">%s</a>` ($lurl | htmlEscape) ($lname | htmlEscape)) ($lname | htmlEscape) -}}
+    {{- $items = $items | append (dict
+      "key" "license"
+      "icon" "fa-solid fa-scale-balanced"
+      "html" (T "post_content_license" (dict "license" $ltarget)))
+    -}}
+  {{- end -}}
 {{- end -}}
 
 {{- return $items -}}
