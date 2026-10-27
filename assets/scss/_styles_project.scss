@@ -9,6 +9,17 @@
   border-radius: 50%;
 }
 
+// Wordmark: solid-colour brand in the UI face instead of the gradient
+// display face (Chakra Petch with a blue-to-copper text clip).
+.td-site-header .td-nav-title {
+  background: none;
+  color: var(--bs-emphasis-color);
+  font-family: var(--td-ui-font-family);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  -webkit-text-fill-color: currentColor;
+}
+
 // Keep the footline inside the first viewport on plain (non-shell) pages:
 // the sticky navbar takes 50px in normal flow, so the outer wrapper gets
 // the rest of the viewport instead of a full 100vh that pushed the
