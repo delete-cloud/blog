@@ -1,7 +1,7 @@
 ---
 title: A few thoughts on open source
 date: 2026-11-09T00:00:00+08:00
-description: My motives aren't pure, but the love is real.
+description: But I do love it.
 tags: [notes]
 translation_notice: zh
 ---

@@ -1,7 +1,7 @@
 ---
 title: 关于开源的一点想法
 date: 2026-11-09T00:00:00+08:00
-description: 动机不算纯粹，但喜欢是真的。
+description: 但确实喜欢
 tags: [随笔]
 ---
 
